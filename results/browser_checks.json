@@ -1,0 +1,134 @@
+{
+  "browser": "157.0.8103.79",
+  "checks": [
+    {
+      "name": "Пряме відкриття та шість основних графіків",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=5, euler: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=5, heun: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=5, rk4: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=10, euler: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=10, heun: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=10, rk4: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=20, euler: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=20, heun: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "variant, n=20, rk4: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=5, euler: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=5, heun: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=5, rk4: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=10, euler: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=10, heun: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=10, rk4: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=20, euler: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=20, heun: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "stability, n=20, rk4: перемикання та крок",
+      "status": "OK"
+    },
+    {
+      "name": "Автомасштаб містить проміжні стадії",
+      "status": "OK"
+    },
+    {
+      "name": "Відтворення і пауза",
+      "status": "OK"
+    },
+    {
+      "name": "Повзунок і повернення на початок",
+      "status": "OK"
+    },
+    {
+      "name": "Log-похибка має скінченні межі",
+      "status": "OK"
+    },
+    {
+      "name": "Власна задача без еталона",
+      "status": "OK"
+    },
+    {
+      "name": "Помилковий вираз зберігає поточну задачу",
+      "status": "OK"
+    },
+    {
+      "name": "Порожнє числове поле відхиляється",
+      "status": "OK"
+    },
+    {
+      "name": "Невірна початкова умова еталона",
+      "status": "OK"
+    },
+    {
+      "name": "Експорт CSV",
+      "status": "OK"
+    },
+    {
+      "name": "Лотка–Вольтерра: зміна сітки",
+      "status": "OK"
+    },
+    {
+      "name": "Експорт Лотки–Вольтерри",
+      "status": "OK"
+    },
+    {
+      "name": "Реєстрація нового методу без зміни інтерфейсу",
+      "status": "OK"
+    },
+    {
+      "name": "Мобільна ширина 390 px",
+      "status": "OK"
+    }
+  ],
+  "errors": []
+}

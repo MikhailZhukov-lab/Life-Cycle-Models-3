@@ -1,0 +1,7 @@
+{
+  "node": "v24.14.0",
+  "platform": "win32",
+  "warmup": 30,
+  "batches": 9,
+  "batchSize": 200
+}

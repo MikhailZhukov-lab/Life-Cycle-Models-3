@@ -1,0 +1,358 @@
+TAP version 13
+# Subtest: Межі містять дані тесту стійкості
+ok 1 - Межі містять дані тесту стійкості
+  ---
+  duration_ms: 0.9175
+  type: 'test'
+  ...
+# Subtest: Стала функція має ненульовий діапазон
+ok 2 - Стала функція має ненульовий діапазон
+  ---
+  duration_ms: 0.1362
+  type: 'test'
+  ...
+# Subtest: Логарифмічна шкала пропускає нуль
+ok 3 - Логарифмічна шкала пропускає нуль
+  ---
+  duration_ms: 0.1564
+  type: 'test'
+  ...
+# Subtest: Порожні та нечислові дані
+ok 4 - Порожні та нечислові дані
+  ---
+  duration_ms: 0.1299
+  type: 'test'
+  ...
+# Subtest: Довга історія не переповнює стек
+ok 5 - Довга історія не переповнює стек
+  ---
+  duration_ms: 23.6704
+  type: 'test'
+  ...
+# Subtest: Тест порядку відрізняє мутацію h замість h/2
+ok 6 - Тест порядку відрізняє мутацію h замість h/2
+  ---
+  duration_ms: 5.1775
+  type: 'test'
+  ...
+# Subtest: Вираз 2+3*4
+ok 7 - Вираз 2+3*4
+  ---
+  duration_ms: 1.3652
+  type: 'test'
+  ...
+# Subtest: Вираз (2+3)*4
+ok 8 - Вираз (2+3)*4
+  ---
+  duration_ms: 0.8525
+  type: 'test'
+  ...
+# Subtest: Вираз 2^3^2
+ok 9 - Вираз 2^3^2
+  ---
+  duration_ms: 0.1679
+  type: 'test'
+  ...
+# Subtest: Вираз -2^2
+ok 10 - Вираз -2^2
+  ---
+  duration_ms: 0.1522
+  type: 'test'
+  ...
+# Subtest: Вираз 2^-2
+ok 11 - Вираз 2^-2
+  ---
+  duration_ms: 0.1007
+  type: 'test'
+  ...
+# Subtest: Вираз 3e-2+1
+ok 12 - Вираз 3e-2+1
+  ---
+  duration_ms: 0.086
+  type: 'test'
+  ...
+# Subtest: Вираз sin(pi/2)
+ok 13 - Вираз sin(pi/2)
+  ---
+  duration_ms: 0.1641
+  type: 'test'
+  ...
+# Subtest: Вираз ln(exp(2))
+ok 14 - Вираз ln(exp(2))
+  ---
+  duration_ms: 0.0849
+  type: 'test'
+  ...
+# Subtest: Вираз sqrt(9)+abs(-2)
+ok 15 - Вираз sqrt(9)+abs(-2)
+  ---
+  duration_ms: 0.2064
+  type: 'test'
+  ...
+# Subtest: Змінні x, y
+ok 16 - Змінні x, y
+  ---
+  duration_ms: 0.3818
+  type: 'test'
+  ...
+# Subtest: Відхилення ""
+ok 17 - Відхилення ""
+  ---
+  duration_ms: 0.3194
+  type: 'test'
+  ...
+# Subtest: Відхилення "2y"
+ok 18 - Відхилення "2y"
+  ---
+  duration_ms: 0.1724
+  type: 'test'
+  ...
+# Subtest: Відхилення "x+"
+ok 19 - Відхилення "x+"
+  ---
+  duration_ms: 0.1467
+  type: 'test'
+  ...
+# Subtest: Відхилення "unknown(x)"
+ok 20 - Відхилення "unknown(x)"
+  ---
+  duration_ms: 0.1638
+  type: 'test'
+  ...
+# Subtest: Відхилення "globalThis.alert(1)"
+ok 21 - Відхилення "globalThis.alert(1)"
+  ---
+  duration_ms: 0.1008
+  type: 'test'
+  ...
+# Subtest: Відхилення "x; process.exit()"
+ok 22 - Відхилення "x; process.exit()"
+  ---
+  duration_ms: 0.1412
+  type: 'test'
+  ...
+# Subtest: Відхилення "constructor(1)"
+ok 23 - Відхилення "constructor(1)"
+  ---
+  duration_ms: 0.0753
+  type: 'test'
+  ...
+# Subtest: Відхилення "(x"
+ok 24 - Відхилення "(x"
+  ---
+  duration_ms: 0.1211
+  type: 'test'
+  ...
+# Subtest: Відхилення "sin()"
+ok 25 - Відхилення "sin()"
+  ---
+  duration_ms: 0.1765
+  type: 'test'
+  ...
+# Subtest: Відхилення "1/0"
+ok 26 - Відхилення "1/0"
+  ---
+  duration_ms: 0.0787
+  type: 'test'
+  ...
+# Subtest: Немає y в точній функції
+ok 27 - Немає y в точній функції
+  ---
+  duration_ms: 0.0945
+  type: 'test'
+  ...
+# Subtest: Надмірна вкладеність
+ok 28 - Надмірна вкладеність
+  ---
+  duration_ms: 0.8203
+  type: 'test'
+  ...
+# Subtest: Один крок euler
+ok 29 - Один крок euler
+  ---
+  duration_ms: 1.6106
+  type: 'test'
+  ...
+# Subtest: Один крок heun
+ok 30 - Один крок heun
+  ---
+  duration_ms: 0.1434
+  type: 'test'
+  ...
+# Subtest: Один крок rk4
+ok 31 - Один крок rk4
+  ---
+  duration_ms: 0.1727
+  type: 'test'
+  ...
+# Subtest: Варіант: euler, n=5
+ok 32 - Варіант: euler, n=5
+  ---
+  duration_ms: 0.4181
+  type: 'test'
+  ...
+# Subtest: Варіант: heun, n=5
+ok 33 - Варіант: heun, n=5
+  ---
+  duration_ms: 0.1436
+  type: 'test'
+  ...
+# Subtest: Варіант: rk4, n=5
+ok 34 - Варіант: rk4, n=5
+  ---
+  duration_ms: 0.2544
+  type: 'test'
+  ...
+# Subtest: Варіант: euler, n=10
+ok 35 - Варіант: euler, n=10
+  ---
+  duration_ms: 0.2186
+  type: 'test'
+  ...
+# Subtest: Варіант: heun, n=10
+ok 36 - Варіант: heun, n=10
+  ---
+  duration_ms: 0.1555
+  type: 'test'
+  ...
+# Subtest: Варіант: rk4, n=10
+ok 37 - Варіант: rk4, n=10
+  ---
+  duration_ms: 0.2724
+  type: 'test'
+  ...
+# Subtest: Варіант: euler, n=20
+ok 38 - Варіант: euler, n=20
+  ---
+  duration_ms: 0.2917
+  type: 'test'
+  ...
+# Subtest: Варіант: heun, n=20
+ok 39 - Варіант: heun, n=20
+  ---
+  duration_ms: 0.7424
+  type: 'test'
+  ...
+# Subtest: Варіант: rk4, n=20
+ok 40 - Варіант: rk4, n=20
+  ---
+  duration_ms: 0.1214
+  type: 'test'
+  ...
+# Subtest: Аналітичний еталон
+ok 41 - Аналітичний еталон
+  ---
+  duration_ms: 0.095
+  type: 'test'
+  ...
+# Subtest: Порядок euler
+ok 42 - Порядок euler
+  ---
+  duration_ms: 0.2145
+  type: 'test'
+  ...
+# Subtest: Порядок heun
+ok 43 - Порядок heun
+  ---
+  duration_ms: 0.2937
+  type: 'test'
+  ...
+# Subtest: Порядок rk4
+ok 44 - Порядок rk4
+  ---
+  duration_ms: 0.2246
+  type: 'test'
+  ...
+# Subtest: Стійкість n=5
+ok 45 - Стійкість n=5
+  ---
+  duration_ms: 0.1744
+  type: 'test'
+  ...
+# Subtest: Стійкість n=10
+ok 46 - Стійкість n=10
+  ---
+  duration_ms: 0.0678
+  type: 'test'
+  ...
+# Subtest: Стійкість n=20
+ok 47 - Стійкість n=20
+  ---
+  duration_ms: 0.0944
+  type: 'test'
+  ...
+# Subtest: Стратегія без зміни солвера
+ok 48 - Стратегія без зміни солвера
+  ---
+  duration_ms: 0.4327
+  type: 'test'
+  ...
+# Subtest: РК4 стадії мають правильні середні точки
+ok 49 - РК4 стадії мають правильні середні точки
+  ---
+  duration_ms: 0.5978
+  type: 'test'
+  ...
+# Subtest: РК4 на кубічному розв’язку
+ok 50 - РК4 на кубічному розв’язку
+  ---
+  duration_ms: 0.133
+  type: 'test'
+  ...
+# Subtest: Рух назад по інтервалу
+ok 51 - Рух назад по інтервалу
+  ---
+  duration_ms: 0.1549
+  type: 'test'
+  ...
+# Subtest: Некоректні n та інтервал
+ok 52 - Некоректні n та інтервал
+  ---
+  duration_ms: 0.2084
+  type: 'test'
+  ...
+# Subtest: Переповнення та розмірність
+ok 53 - Переповнення та розмірність
+  ---
+  duration_ms: 0.2205
+  type: 'test'
+  ...
+# Subtest: Власна задача та відсутній еталон
+ok 54 - Власна задача та відсутній еталон
+  ---
+  duration_ms: 0.6891
+  type: 'test'
+  ...
+# Subtest: Векторний РК4, рівновага та копії
+ok 55 - Векторний РК4, рівновага та копії
+  ---
+  duration_ms: 1.1505
+  type: 'test'
+  ...
+# Subtest: Лотка–Вольтерра: додатність та інваріант
+ok 56 - Лотка–Вольтерра: додатність та інваріант
+  ---
+  duration_ms: 3.0017
+  type: 'test'
+  ...
+# Subtest: CSV: BOM, рядки та назви методів
+ok 57 - CSV: BOM, рядки та назви методів
+  ---
+  duration_ms: 1.1364
+  type: 'test'
+  ...
+# Subtest: Нульова похибка не утворює хибний порядок
+ok 58 - Нульова похибка не утворює хибний порядок
+  ---
+  duration_ms: 0.1375
+  type: 'test'
+  ...
+1..58
+# tests 58
+# suites 0
+# pass 58
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 115.0651
