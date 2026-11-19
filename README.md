@@ -102,8 +102,10 @@ node scripts/browser-check.js
 походження коду наведені в окремому AI-журналі та повідомленнях комітів.
 Файл `.github/workflows/tests.yml` запускає тести й контроль порядку
 для Node.js 20 і 24 на push, pull_request та workflow_dispatch.
-Віддалений репозиторій поки не налаштовано; успішний запуск GitHub Actions
-не заявляється. Після завантаження до GitHub workflow виконається автоматично.
+Репозиторій: https://github.com/MikhailZhukov-lab/Life-Cycle-Models-3
+GitHub Actions успішно перевірив Node.js 20 і 24:
+https://github.com/MikhailZhukov-lab/Life-Cycle-Models-3/actions/runs/44600236651
+Підтвердження: results/ci_status.json.
 У фінальному архіві history.bundle зберігає локальну історію; відновлення:
 
 ```text

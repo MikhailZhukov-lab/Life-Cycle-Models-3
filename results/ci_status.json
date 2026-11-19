@@ -1,0 +1,21 @@
+{
+    "id":  44600236651,
+    "status":  "completed",
+    "conclusion":  "success",
+    "html_url":  "https://github.com/MikhailZhukov-lab/Life-Cycle-Models-3/actions/runs/44600236651",
+    "head_sha":  "0d1aa39ef16bfedfc0bb47877f91b1536a844704",
+    "jobs":  [
+                 {
+                     "name":  "test (20)",
+                     "status":  "completed",
+                     "conclusion":  "success",
+                     "html_url":  "https://github.com/MikhailZhukov-lab/Life-Cycle-Models-3/actions/runs/44600236651/job/135829328929"
+                 },
+                 {
+                     "name":  "test (24)",
+                     "status":  "completed",
+                     "conclusion":  "success",
+                     "html_url":  "https://github.com/MikhailZhukov-lab/Life-Cycle-Models-3/actions/runs/44600236651/job/135829329350"
+                 }
+             ]
+}
