@@ -1,0 +1,12 @@
+{
+  "name": "ode-lab3-zhukov",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ЛР № 3. Задача Коші. Жуков Михайло Володимирович. Варіант 2.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "metrics": "node scripts/metrics.js",
+    "order": "node scripts/order-check.js"
+  },
+  "engines": { "node": ">=20" }
+}

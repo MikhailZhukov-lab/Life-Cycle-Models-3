@@ -1,0 +1,66 @@
+node:internal/modules/cjs/loader:1459
+  throw err;
+  ^
+
+Error: Cannot find module '../js/expr.js'
+Require stack:
+- D:\Моделі життєвого циклу 3\LR3_Zhukov_JS\tests\expr.test.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1556:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (D:\Моделі життєвого циклу 3\LR3_Zhukov_JS\tests\expr.test.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Моделі життєвого циклу 3\\LR3_Zhukov_JS\\tests\\expr.test.js'
+  ]
+}
+
+Node.js v24.14.0
+✖ tests\expr.test.js (53.9392ms)
+node:internal/modules/cjs/loader:1459
+  throw err;
+  ^
+
+Error: Cannot find module '../js/ode.js'
+Require stack:
+- D:\Моделі життєвого циклу 3\LR3_Zhukov_JS\tests\ode.test.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1556:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (D:\Моделі життєвого циклу 3\LR3_Zhukov_JS\tests\ode.test.js:3:9)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'D:\\Моделі життєвого циклу 3\\LR3_Zhukov_JS\\tests\\ode.test.js' ]
+}
+
+Node.js v24.14.0
+✖ tests\ode.test.js (48.9211ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 78.6322
+
+✖ failing tests:
+
+test at tests\expr.test.js:1:1
+✖ tests\expr.test.js (53.9392ms)
+  'test failed'
+
+test at tests\ode.test.js:1:1
+✖ tests\ode.test.js (48.9211ms)
+  'test failed'
